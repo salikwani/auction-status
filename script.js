@@ -42,7 +42,7 @@ function showData() {
                                                         <div class="date">${data[i].date}</div>
                                                         <div class="line"></div>
                                                         <div style="flex-grow: 1"> 
-                                                            <strong>${data[i].toLocation.trim()}</strong>
+                                                            <strong>${data[i].toLocation}</strong>
                                                             <p>${data[i].fromLocation}<span style="float:right;">${data[i].fare}</span></p>
                                                         </div>
                                                     </div>`
